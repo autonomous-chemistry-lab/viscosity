@@ -2,6 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Read image
 img = cv2.imread('22.jpg')
 
 crop_img = img[550:925,695:1350]
