@@ -14,4 +14,5 @@ def vid_to_frame(video, pathoutputdir):
     cv2.destroyAllWindows()
     vidcap.release()
 
-vid_to_frame('/Users/phd19msw/Py_charm/skimage/Video1.mp4', '/Users/phd19msw/Py_charm/skimage/Video1_images')
+vid_to_frame('/Users/phd19msw/viscosity/skimage/in_line_1rot/10.mp4',
+             '/Users/phd19msw/viscosity/skimage/in_line_1rot/10ml_frames')
